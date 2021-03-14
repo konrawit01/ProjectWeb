@@ -10,8 +10,9 @@ function Header() {
         <Link to="/">HealthInfo</Link>
       </div>
       <div className="header-links">
-        <a href="cart.html">เลือกหนังสือ</a>
-        <a href="signin.html">Sign In</a>
+        <a href="Cart.html">หมวดหมู่หนังสือ</a>
+       <a href="signin.html">Sign In</a>
+        <a href="login.html">Log in</a>
       </div>
     </header>
   );

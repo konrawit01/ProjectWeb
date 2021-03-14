@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="footer">
-      All Maintain self health 2021  </footer>
+      ร้านขายหนังสือ 2021 </footer>
   );
 }
 

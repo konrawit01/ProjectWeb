@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Product from '../components/Product.js';
 import { useSelector, useDispatch } from 'react-redux';
-import { listProducts } from '../actions/product.js';
+import { listProducts } from '../actions/productActions.js';
 // import axios from 'axios';
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
     return () => {};
   }, []);
 
-  return loading? <div> กำลัง load อยู่นะครับ... </div> :
+  return loading? <div><h>กำลัง load อยู่นะครับ...</h></div> :
           error? <div className="error"> ERRRR {error} </div> : (
     <div>
       <h1> หน้าแรก</h1>
